@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "lib": ["es2017"],
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es6",
+    "rootDir": "./",
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strict": true,
+    "types": ["webpack-env", "node"],
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+  },
+  "include": ["bin", "lib", "index.ts"],
+  "exclude": ["node_modules"]
+}
